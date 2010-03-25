@@ -10,12 +10,6 @@ import org.apache.commons.logging.LogFactory;
 import org.springframework.ws.server.endpoint.AbstractDomPayloadEndpoint;
 import com.autentia.tutoriales.spring.ws.entity.*;
 
-/**
- * EndPoint del WS, recibe las peticiones de consulta de libros (peticiones XML),
- * las convierte en objetos y delega su procesamiento a un IRequestProcessor.
- * @author Carlos García. Autentia
- * @see http://www.mobiletest.es
- */
 public class BookInfoEndPoint extends AbstractDomPayloadEndpoint {
 	private Log		  logger = LogFactory.getLog(BookInfoEndPoint.class);
 	
