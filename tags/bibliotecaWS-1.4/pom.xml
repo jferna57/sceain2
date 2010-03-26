@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>net.juancarlosfernandez.samples.spring</groupId>
+	<artifactId>bibliotecaWS</artifactId>
+	<packaging>war</packaging>
+	<version>1.4</version>
+	<name>BibliotecaWS con Spring-WS</name>
+	<description>Ejemplo de Spring-WS</description>
+	<url>https://sceain2.googlecode.com</url>
+
+	<inceptionYear>2010</inceptionYear>
+	<scm>
+		<connection>scm:svn:https://sceain2.googlecode.com/svn/tags/bibliotecaWS-1.4</connection>
+		<developerConnection>scm:svn:https://sceain2.googlecode.com/svn/tags/bibliotecaWS-1.4</developerConnection>
+		<url>https://sceain2.googlecode.com/svn/tags/bibliotecaWS-1.4</url>
+	</scm>
+
+	<distributionManagement>
+		<!-- use the following if you're not using a snapshot version. -->
+		<repository>
+			<id>google-code</id>
+			<name>Repository Name</name>
+			<url>https://sceain2.googlecode.com/svn/trunk/</url>
+		</repository>
+		<!-- use the following if you ARE using a snapshot version. -->
+		<snapshotRepository>
+			<id>google-code</id>
+			<name>Repository Name</name>
+			<url>https://sceain2.googlecode.com/svn/branches/</url> 
+		</snapshotRepository> 
+	</distributionManagement>
+
+
+
+	<!-- Sintáxis Java 5 -->
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.5</source>
+					<target>1.5</target>
+					<encoding>UTF-8</encoding>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>2.0</version>
+				<configuration>
+					<tagBase>https://sceain2.googlecode.com/svn/tags/</tagBase>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+
+
+	<dependencies>
+		<!--
+			Spring WS: Maven gestionará automáticamente todas sus dependencias,
+			que no son pocas :-)
+		-->
+		<dependency>
+			<groupId>org.springframework.ws</groupId>
+			<artifactId>spring-ws-core</artifactId>
+			<version>1.5.6</version>
+		</dependency>
+	</dependencies>
+</project>
