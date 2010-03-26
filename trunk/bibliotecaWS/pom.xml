@@ -11,9 +11,9 @@
 
 	<inceptionYear>2010</inceptionYear>
 	<scm>
-		<connection>scm:svn:https://sceain2.googlecode.com/svn/trunk/bibliotecaWS</connection>
-		<developerConnection>scm:svn:https://sceain2.googlecode.com/svn/trunk/bibliotecaWS</developerConnection>
-		<url>https://sceain2.googlecode.com/svn/trunk/bibliotecaWS</url>
+		<connection>scm:svn:https://sceain2.googlecode.com/svn/branches/newCode</connection>
+		<developerConnection>scm:svn:https://sceain2.googlecode.com/svn/branches/newCode</developerConnection>
+		<url>https://sceain2.googlecode.com/svn/branches/newCode</url>
 	</scm>
 
 	<distributionManagement>
