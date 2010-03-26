@@ -12,9 +12,9 @@
 
 	<inceptionYear>2010</inceptionYear>
 	<scm>
-		<connection>scm:svn:https://sceain2.googlecode.com/svn/tags/bibliotecaWS-1.5</connection>
-		<developerConnection>scm:svn:https://sceain2.googlecode.com/svn/tags/bibliotecaWS-1.5</developerConnection>
-		<url>https://sceain2.googlecode.com/svn/tags/bibliotecaWS-1.5</url>
+		<connection>scm:svn:https://sceain2.googlecode.com/svn/trunk/bibliotecaWS</connection>
+		<developerConnection>scm:svn:https://sceain2.googlecode.com/svn/trunk/bibliotecaWS</developerConnection>
+		<url>https://sceain2.googlecode.com/svn/tags/</url>
 	</scm>
 
 	<distributionManagement>
