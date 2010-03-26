@@ -4,14 +4,30 @@
 	<groupId>com.autentia.tutoriales</groupId>
 	<artifactId>bibliotecaWS</artifactId>
 	<packaging>war</packaging>
-	<version>1.2-SNAPSHOT</version>
+	<version>1.2</version>
 	<name>BibliotecaWS con Spring-WS</name>
 	<url>https://sceain2.googlecode.com</url>
 
 	<scm>
-		<developerConnection>scm:svn:https://sceain2.googlecode.com/svn/trunk/bibliotecaW</developerConnection>
-		<url>https://sceain2.googlecode.com/svn/trunk/bibliotecaWS</url>
+		<developerConnection>scm:svn:https://sceain2.googlecode.com/svn/tags/bibliotecaWS-1.2</developerConnection>
+		<url>https://sceain2.googlecode.com/svn/tagsS/bibliotecaWS-1.2</url>
 	</scm>
+
+	<distributionManagement>
+		<!-- use the following if you're not using a snapshot version. -->
+		<repository>
+			<id>google-code</id>
+			<name>Repository Name</name>
+			<url>https://sceain2.googlecode.com/svn/trunk/</url>
+		</repository>
+		<!-- use the following if you ARE using a snapshot version. 
+		<snapshotRepository>
+			<id>google-code</id>
+			<name>Repository Name</name>
+			<url>https://sceain2.googlecode.com/svn/branches/</url> 
+		</snapshotRepository> -->
+	</distributionManagement>
+
 
 
 	<!-- Sintáxis Java 5 -->
