@@ -1,9 +1,9 @@
-package com.autentia.tutoriales.spring.ws.entity;
+package net.juancarlosfernandez.samples.spring.ws.entity;
 
 /**
- * Representación de una petición.
- * @author Carlos García. Autentia
- * @see http://www.mobiletest.es
+ * Representacion de una peticion.
+ * @author Juan C. Fern�ndez
+ * @see http://www.juancarlosfernandez.net
  */
 public class BooksInfoRequest {
 	private String categoria;

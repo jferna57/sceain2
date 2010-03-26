@@ -1,12 +1,12 @@
-package com.autentia.tutoriales.spring.ws;
+package net.juancarlosfernandez.samples.spring.ws;
 
-import com.autentia.tutoriales.spring.ws.entity.BooksInfoRequest;
-import com.autentia.tutoriales.spring.ws.entity.BooksInfoResponse;
+import net.juancarlosfernandez.samples.spring.ws.entity.BooksInfoRequest;
+import net.juancarlosfernandez.samples.spring.ws.entity.BooksInfoResponse;
 
 /**
  * Tratamiento de una petición de búsqueda de libros
- * @author Carlos García. Autentia.
- * @see http://www.mobiletest.es 
+ * @author Juan C. Fern�ndez
+ * @see http://www.juancarlosfernandez.net
  */
 public interface IRequestProcessor {
 	/**

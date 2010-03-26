@@ -1,22 +1,29 @@
-package com.autentia.tutoriales.spring.ws;
+package net.juancarlosfernandez.samples.spring.ws;
 
 import java.util.Iterator;
 import java.util.List;
+
+import net.juancarlosfernandez.samples.spring.ws.entity.*;
+
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Text;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.ws.server.endpoint.AbstractDomPayloadEndpoint;
-import com.autentia.tutoriales.spring.ws.entity.*;
 
+/**
+ * 
+ * @author Juan C. Fern·ndez
+ * @see http://www.juancarlosfernandez.net
+ */
 public class BookInfoEndPoint extends AbstractDomPayloadEndpoint {
 	private Log		  logger = LogFactory.getLog(BookInfoEndPoint.class);
 	
 	private IRequestProcessor procesor;
 
 	/**
-	 * Ser√° inyectado por Spring
+	 * Sera inyectado por Spring
 	 */
 	public void setProcesor(IRequestProcessor procesor) {
 		this.procesor = procesor;

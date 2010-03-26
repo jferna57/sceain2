@@ -1,13 +1,13 @@
-package com.autentia.tutoriales.spring.ws;
+package net.juancarlosfernandez.samples.spring.ws;
 
-import com.autentia.tutoriales.spring.ws.entity.BooksInfoRequest;
-import com.autentia.tutoriales.spring.ws.entity.BooksInfoResponse;
-import com.autentia.tutoriales.spring.ws.entity.Libro;
+import net.juancarlosfernandez.samples.spring.ws.entity.BooksInfoRequest;
+import net.juancarlosfernandez.samples.spring.ws.entity.BooksInfoResponse;
+import net.juancarlosfernandez.samples.spring.ws.entity.Libro;
 
 /**
- * Implementación dummy de IRequestProcesor
- * @author Carlos García. Autentia.
- * @see http://www.mobiletest.es 
+ * Implementacion dummy de IRequestProcesor
+ * @author Juan C. Fern�ndez
+ * @see http://www.juancarlosfernandez.net
  */
 public class DummyRequestProcessor implements IRequestProcessor {
 
