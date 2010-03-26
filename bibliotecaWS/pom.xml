@@ -4,13 +4,13 @@
 	<groupId>com.autentia.tutoriales</groupId>
 	<artifactId>bibliotecaWS</artifactId>
 	<packaging>war</packaging>
-	<version>1.1-SNAPSHOT</version>
+	<version>1.1</version>
 	<name>BibliotecaWS con Spring-WS</name>
 	<url>https://sceain2.googlecode.com</url>
 
 	<scm>
-		<developerConnection>scm:svn:https://sceain2.googlecode.com/svn/trunk/bibliotecaW</developerConnection>
-		<url>https://sceain2.googlecode.com/svn/trunk/bibliotecaWS</url>
+		<developerConnection>scm:svn:https://sceain2.googlecode.com/svn/tags/bibliotecaWS-1.1</developerConnection>
+		<url>https://sceain2.googlecode.com/svn/tagsS/bibliotecaWS-1.1</url>
 	</scm>
 
 
