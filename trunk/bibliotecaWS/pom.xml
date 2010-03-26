@@ -4,16 +4,16 @@
 	<groupId>net.juancarlosfernandez.samples.spring</groupId>
 	<artifactId>bibliotecaWS</artifactId>
 	<packaging>war</packaging>
-	<version>1.6-SNAPSHOT</version>
+	<version>1.6</version>
 	<name>BibliotecaWS con Spring-WS</name>
 	<description>Ejemplo de Spring-WS</description>
 	<url>https://sceain2.googlecode.com</url>
 
 	<inceptionYear>2010</inceptionYear>
 	<scm>
-		<connection>scm:svn:https://sceain2.googlecode.com/svn/trunk/bibliotecaWS</connection>
-		<developerConnection>scm:svn:https://sceain2.googlecode.com/svn/trunk/bibliotecaWS</developerConnection>
-		<url>https://sceain2.googlecode.com/svn/trunk/</url>
+		<connection>scm:svn:https://sceain2.googlecode.com/svn/tags/bibliotecaWS-1.6</connection>
+		<developerConnection>scm:svn:https://sceain2.googlecode.com/svn/tags/bibliotecaWS-1.6</developerConnection>
+		<url>scm:svn:https://sceain2.googlecode.com/svn/tags/bibliotecaWS-1.6</url>
 	</scm>
 
 	<distributionManagement>
