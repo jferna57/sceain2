@@ -1,9 +1,9 @@
-package com.autentia.tutoriales.spring.ws.entity;
+package net.juancarlosfernandez.samples.spring.ws.entity;
 
 /**
- * Representación la respuesta a una petición BooksInforRequest.
- * @author Carlos García. Autentia
- * @see http://www.mobiletest.es
+ * Representacion la respuesta a una peticion BooksInforRequest.
+ * @author Juan C. Fern�ndez
+ * @see http://www.juancarlosfernandez.net
  */
 public class BooksInfoResponse {
 	private java.util.ArrayList<Libro> libros;

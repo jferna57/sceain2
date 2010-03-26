@@ -6,10 +6,10 @@
                            http://www.springframework.org/schema/util  http://www.springframework.org/schema/util/spring-util-2.5.xsd">
 	
 	<!-- Realiza la lógica de negocio de consulta de libros en base a la petición -->
-	<bean name="requestProcesor" class="com.autentia.tutoriales.spring.ws.DummyRequestProcessor"/>
+	<bean name="requestProcesor" class="net.juancarlosfernandez.samples.spring.ws.DummyRequestProcessor"/>
 
 	<!-- EndPoint del WS: Recibirá la petición del WS (operation)  -->
-	<bean id="bibliotecaWSEndpoint" class="com.autentia.tutoriales.spring.ws.BookInfoEndPoint">
+	<bean id="bibliotecaWSEndpoint" class="net.juancarlosfernandez.samples.spring.ws.BookInfoEndPoint">
     	<property name="procesor" ref="requestProcesor" />
 	</bean>
 
@@ -29,7 +29,7 @@
 	 	<property name="endpointMap">
 	 		<map>
 	 			<!-- ¡¡ Ojo !! No dejar espacios entre el nameespace y el elemento raiz -->
-	 			<entry key="{http://www.adictosaltrabajo.com/spring/ws/schemas}BooksInfoRequest" value-ref="bibliotecaWSEndpoint"/>
+	 			<entry key="{http://www.juancarlosfernandez.net/spring/ws/schemas}BooksInfoRequest" value-ref="bibliotecaWSEndpoint"/>
 	 		</map>
 	 	</property>
 	 </bean>

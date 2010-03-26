@@ -1,9 +1,9 @@
-package com.autentia.tutoriales.spring.ws.entity;
+package net.juancarlosfernandez.samples.spring.ws.entity;
 
 /**
- * Representación de un libro
- * @author Carlos García. Autentia
- * @see http://www.mobiletest.es
+ * Representacion de un libro
+ * @author Juan C. Fern�ndez
+ * @see http://www.juancarlosfernandez.net
  */
 public class Libro {
 	private String editorial;
