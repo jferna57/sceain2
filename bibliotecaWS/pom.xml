@@ -67,7 +67,7 @@
 	<dependencies>
 		<!--
 			Spring WS: Maven gestionará automáticamente todas sus dependencias,
-			que no son pocas :-)
+			que no son pocas
 		-->
 		<dependency>
 			<groupId>org.springframework.ws</groupId>
