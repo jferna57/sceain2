@@ -7,6 +7,11 @@ import org.junit.Test;
 
 import junit.framework.TestCase;
 
+/**
+ * aafdfasdf
+ * @author juancarlosf
+ *
+ */
 public class BooksInfoRequestTest extends TestCase {
 	
 	@Test
