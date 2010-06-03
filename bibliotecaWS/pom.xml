@@ -13,7 +13,7 @@
 	<scm>
 		<connection>scm:svn:https://sceain2.googlecode.com/svn/trunk/bibliotecaWS</connection>
 		<developerConnection>scm:svn:https://sceain2.googlecode.com/svn/trunk/bibliotecaWS</developerConnection>
-		<url>https://sceain2.googlecode.com/svn/trunk/</url>
+		<!--   <url>https://sceain2.googlecode.com/svn/trunk/</url> -->
 	</scm>
 
 	<distributionManagement>
@@ -21,13 +21,13 @@
 		<repository>
 			<id>google-code</id>
 			<name>Repository Name</name>
-			<url>https://sceain2.googlecode.com/svn/tags</url>
+			<url>dav:http://qualityportal.in2.es:8123/tunnel-web/secure/webdav/hc3/document_library/test</url>
 		</repository>
 		<!-- use the following if you ARE using a snapshot version. -->
 		<snapshotRepository>
 			<id>google-code</id>
 			<name>Repository Name</name>
-			<url>https://sceain2.googlecode.com/svn/tags</url>
+			<url>dav:http://qualityportal.in2.es:8123/tunnel-web/secure/webdav/hc3/document_library/test</url>
 		</snapshotRepository>
 	</distributionManagement>
 
