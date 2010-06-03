@@ -6,7 +6,11 @@ import net.juancarlosfernandez.samples.spring.ws.entity.Libro;
 
 import org.junit.Test;
 
-
+/**
+ * asdfadfasf
+ * @author juancarlosf
+ *
+ */
 public class LibroTest {
 	
 	Libro libro = new Libro();
