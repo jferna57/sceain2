@@ -4,15 +4,15 @@
 	<groupId>demo</groupId>
 	<artifactId>bibliotecaWS</artifactId>
 	<packaging>war</packaging>
-	<version>1.11-SNAPSHOT</version>
+	<version>1.11</version>
 	<name>BibliotecaWS con Spring-WS</name>
 	<description>Ejemplo de Spring-WS</description>
 	<url>https://sceain2.googlecode.com</url>
 
 	<inceptionYear>2010</inceptionYear>
 	<scm>
-		<connection>scm:svn:https://sceain2.googlecode.com/svn/trunk/bibliotecaWS</connection>
-		<developerConnection>scm:svn:https://sceain2.googlecode.com/svn/trunk/bibliotecaWS</developerConnection>
+		<connection>scm:svn:https://sceain2.googlecode.com/svn/tags/bibliotecaWS-1.11</connection>
+		<developerConnection>scm:svn:https://sceain2.googlecode.com/svn/tags/bibliotecaWS-1.11</developerConnection>
 		<!--   <url>https://sceain2.googlecode.com/svn/trunk/</url> -->
 	</scm>
 
