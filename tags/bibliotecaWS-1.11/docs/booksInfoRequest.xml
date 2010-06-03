@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<BooksInfoRequest  xmlns="http://www.adictosaltrabajo.com/spring/ws/schemas">
-	<categoria>Servicios Web</categoria>
-	<nivel>avanzado</nivel>
-</BooksInfoRequest>
