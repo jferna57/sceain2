@@ -21,7 +21,7 @@
 		<repository>
 			<id>google-code</id>
 			<name>Repository Name</name>
-			<url>https://sceain2.googlecode.com/svn/trunk/</url>
+			<url>https://sceain2.googlecode.com/svn/tags/</url>
 		</repository>
 		<!-- use the following if you ARE using a snapshot version. -->
 		<snapshotRepository>
