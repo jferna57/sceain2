@@ -1,0 +1,160 @@
+                                    ------
+                                    Notas de Versão
+~~Demoiselle Framework
+~~Copyright (c) 2009 Serpro and other contributors as indicated
+~~by the @author tag. See the copyright.txt in the distribution for a
+~~full listing of contributors.
+~~
+~~Demoiselle Framework is an open source Java EE library designed to accelerate
+~~the development of transactional database Web applications.
+~~
+~~Demoiselle Framework is released under the terms of the LGPL license 3
+~~http://www.gnu.org/licenses/lgpl.html  LGPL License 3
+~~
+~~This file is part of Demoiselle Framework.
+~~
+~~Demoiselle Framework is free software: you can redistribute it and/or modify
+~~it under the terms of the GNU Lesser General Public License 3 as published by
+~~the Free Software Foundation.
+~~
+~~Demoiselle Framework is distributed in the hope that it will be useful,
+~~but WITHOUT ANY WARRANTY; without even the implied warranty of
+~~MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+~~GNU Lesser General Public License for more details.
+~~
+~~You should have received a copy of the GNU Lesser General Public License
+~~along with Demoiselle Framework.  If not, see <http://www.gnu.org/licenses/>.
+
+Notas de Versão
+
+  Também é possível consultar as informações através do {{{http://sourceforge.net/apps/mantisbt/demoiselle/changelog_page.php?project_id=1}Change Log}} e {{{http://sourceforge.net/apps/mantisbt/demoiselle/roadmap_page.php?project_id=1}Roadmap}} do projeto.
+
+  Clique no número da versão para acessar a sua documentação (disponível a partir da v1.0.6).
+  
+* {{{../1.1.4}v1.1.4}} 
+
+  * {{{http://sourceforge.net/apps/mantisbt/demoiselle/view.php?id=334}0000334}}: [Bug] Fornecer injeção de dependência ao IDAO via aspecto 
+
+* {{{../1.1.3}v1.1.3}} 
+
+  * {{{http://sourceforge.net/apps/mantisbt/demoiselle/view.php?id=318}0000318}}: [Bug] Classes removidas 
+
+* {{{../1.1.2}v1.1.2}} 
+
+  * {{{http://sourceforge.net/apps/mantisbt/demoiselle/view.php?id=210}0000210}}: [Improvement] Refatorar classe PersistenceHandler para permitir testes unitários
+
+  * {{{http://sourceforge.net/apps/mantisbt/demoiselle/view.php?id=132}0000132}}: [Improvement] Método getManagedBean
+
+  * {{{http://sourceforge.net/apps/mantisbt/demoiselle/view.php?id=296}0000296}}: [Bug] Erro com parâmetro minúsculo no demoiselle.properties 
+
+  * {{{http://sourceforge.net/apps/mantisbt/demoiselle/view.php?id=205}0000205}}: [Bug] Possível erro em "br.gov.framework.demoiselle.view.faces.util.ManagedBeanUtil.getMessageBundle"
+
+* {{{../1.1.1}v1.1.1}} 
+
+  * {{{http://sourceforge.net/apps/mantisbt/demoiselle/view.php?id=171}0000171}}: [Improvement] Método findById
+  
+  * {{{http://sourceforge.net/apps/mantisbt/demoiselle/view.php?id=253}0000253}}: [Improvement] Remover tag @see dos javadocs dos arquivos pakage-info.java
+  
+  * {{{http://sourceforge.net/apps/mantisbt/demoiselle/view.php?id=212}0000212}}: [Improvement] Melhoria no tratametno de exceção do CacheManager
+  
+  * {{{http://sourceforge.net/apps/mantisbt/demoiselle/view.php?id=207}0000207}}: [Improvement] Substituir expressões depreciadas no pom.xml
+  
+  * {{{http://sourceforge.net/apps/mantisbt/demoiselle/view.php?id=248}0000248}}: [Improvement] Refatorar localização da fabrica do GenericInjectionManager
+  
+  * {{{http://sourceforge.net/apps/mantisbt/demoiselle/view.php?id=206}0000206}}: [Bug] Mecanismo de injeção não encontra fábrica padrão quando se extende a Interface
+  
+  * {{{http://sourceforge.net/apps/mantisbt/demoiselle/view.php?id=245}0000245}}: [Bug] Remover a classe br.gov.framework.demoiselle.persistence.layer.integration.InjectionManager
+  
+  * {{{http://sourceforge.net/apps/mantisbt/demoiselle/view.php?id=252}0000252}}: [Improvement] Criação de estereótipo mais genérico para a camada de persistência
+
+* {{{../1.1.0}v1.1.0}} 
+
+  * {{{http://sourceforge.net/apps/mantisbt/demoiselle/view.php?id=149}0000149}}: [Improvement] Implementação de teste unitário para JPA.
+
+  * {{{http://sourceforge.net/apps/mantisbt/demoiselle/view.php?id=113}0000113}}: [Bug] Correção do método exists(A pojo) da HibernateGenericDAO gerava exceção indevida em classes mapeadas com @IdClass.
+  
+  * {{{http://sourceforge.net/apps/mantisbt/demoiselle/view.php?id=158}0000158}}: [Bug] Captura de exceção inadequada no método getFieldByName()
+ 
+  * {{{http://sourceforge.net/apps/mantisbt/demoiselle/view.php?id=148}0000148}}: [Feature] Refatoração do mecanismo de injeção.
+
+  * {{{http://sourceforge.net/apps/mantisbt/demoiselle/view.php?id=106}0000106}}: [Feature] Inclusão JPA ao módulo de persistencia.
+
+  * {{{http://sourceforge.net/apps/mantisbt/demoiselle/view.php?id=60}0000060}}: [Feature] Refatoração das classes do mecanismo de injeção.
+
+  * {{{http://sourceforge.net/apps/mantisbt/demoiselle/view.php?id=109}0000109}}: [Feature] Mecanismo de cache para ConfigurationLoader.
+
+  * {{{http://sourceforge.net/apps/mantisbt/demoiselle/view.php?id=83}0000083}}: [Feature] Injection com carregamento exagerado no construtor.
+
+  * {{{http://sourceforge.net/apps/mantisbt/demoiselle/view.php?id=158}0000158}}: [Bug] Captura de exceção inadequada no método getFieldByName.
+  
+  * {{{http://sourceforge.net/apps/mantisbt/demoiselle/view.php?id=97}0000097}}: [Bug] Correção da falha de segurança no uso do findHQL().
+
+  * {{{http://sourceforge.net/apps/mantisbt/demoiselle/view.php?id=93}0000093}}: [Feature] Criação da classe WebMessageServletContextListener.
+
+  * {{{http://sourceforge.net/apps/mantisbt/demoiselle/view.php?id=22}0000022}}: [Feature] Logout da AbstractManagedBean.
+
+  * {{{http://sourceforge.net/apps/mantisbt/demoiselle/view.php?id=55}0000055}}: [Feature] O método clear() de WebSecurityContext replica removeRequest().
+
+  * {{{http://sourceforge.net/apps/mantisbt/demoiselle/view.php?id=63}0000063}}: [Feature] Refatoração método makeTransiente.
+
+  * {{{http://sourceforge.net/apps/mantisbt/demoiselle/view.php?id=37}0000037}}: [Feature] Tratamento de exceções nos ManagedBeans.
+  
+  * Atualiação do site.
+  
+* {{{../1.0.6}v1.0.6}}
+  
+  * {{{http://sourceforge.net/apps/mantisbt/demoiselle/view.php?id=63}0000063}}: [Bug] Refatoração método makeTransiente.
+  
+  * {{{http://sourceforge.net/apps/mantisbt/demoiselle/view.php?id=7}0000007}}: [Bug] Correção no funcionamento do método getAttributeOrMethodNameFromValueBiding().
+  
+  * {{{http://sourceforge.net/apps/mantisbt/demoiselle/view.php?id=6}0000006}}: [Bug] Correção no InjectionManager, que não fazia injeção em campos das superclasses.
+  
+  * {{{http://sourceforge.net/apps/mantisbt/demoiselle/view.php?id=8}0000008}}: [Bug] Correção do método InjectionManager.containsInterface(), que não funcionava sempre.
+  
+  * {{{http://sourceforge.net/apps/mantisbt/demoiselle/view.php?id=26}0000026}}: [Bug] Correção no funcionamento do método getAttributeOrMethodNameFromValueBidiing().
+  
+  * Adição das informações de bug tracking no site.
+
+* v1.0.5
+
+  * Atualização do site.
+  
+* v1.0.4
+
+  * Atualização do site.
+  
+  * Criado a classe WebRedirectActionManager com o método execute() proveniente do WebRedirectServler.
+  
+  * Criado mecanismo na classe WebAbstractFactory para definir um padrão para a busca da classe de implementação na Injeção.
+  
+  * Fechada a conexão ao final dos métodos commit e rollback no JDBCUtil.
+  
+  * Utilização do demoiselle-default-skin no site.
+
+* v1.0.3
+  
+  * O método void setTransactionContext do HibernateUtil passa a ser público.
+  
+  * A especificação de proxy do módulo web foi retirada.
+  
+  * O método addMessage do ManagedBeanUtil passa a receber um IMessage referente a um arquivo de mensagens do JSF.
+  
+  * Atualização do site.
+
+* v1.0.2
+  
+  * A interface <<br.gov.framework.demoiselle.core.bean.IPojo>> agora herda de <<java.io.Serializable>>.
+  
+  * O método <<private boolean containsInterface(Class\<?\> sourceClass, Class\<?\> searchedInterface)>> 
+  agora acessa a hierarquia completa da classe analisada para verificar suas interfaces.   
+
+* v1.0.1
+  
+  * Inclusão de licença de sofware ao framework.
+  
+  * Inclusão de cabeçalho em cada um dos artefatos.
+  
+
+
+  
+  
