@@ -67,8 +67,8 @@
 	</distributionManagement>
 
 	<scm>
-		<url>scm:svn:https://sceain2.googlecode.com/svn/tags/demoiselle-1.1.5-snapshot</url>
-		<connection>scm:svn:https://sceain2.googlecode.com/svn/tags/demoiselle-1.1.5-snapshot</connection>
+		<url>scm:svn:https://sceain2.googlecode.com/svn/trunk/demoiselle</url>
+		<connection>scm:svn:https://sceain2.googlecode.com/svn/trunk/demoiselle</connection>
 	</scm>
 	
 	<build>
