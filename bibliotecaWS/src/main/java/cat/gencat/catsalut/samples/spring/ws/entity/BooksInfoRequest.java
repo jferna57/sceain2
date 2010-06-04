@@ -2,7 +2,7 @@ package cat.gencat.catsalut.samples.spring.ws.entity;
 
 /**
  * Representacion de una peticion.
- * @author Juan C. Fern�ndez
+ * @author Juan C. Fernandez
  * @see http://www.juancarlosfernandez.net
  */
 public class BooksInfoRequest {

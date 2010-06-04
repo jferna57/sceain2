@@ -2,7 +2,7 @@ package cat.gencat.catsalut.samples.spring.ws.entity;
 
 /**
  * Representacion la respuesta a una peticion BooksInforRequest.
- * @author Juan C. Fern�ndez
+ * @author Juan C. Fernandez
  * @see http://www.juancarlosfernandez.net
  */
 public class BooksInfoResponse {
