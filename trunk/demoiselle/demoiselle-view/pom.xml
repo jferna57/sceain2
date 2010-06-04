@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+ Demoiselle Framework
+ Copyright (c) 2009 Serpro and other contributors as indicated
+ by the @author tag. See the copyright.txt in the distribution for a
+ full listing of contributors.
+
+ Demoiselle Framework is an open source Java EE library designed to accelerate
+ the development of transactional database Web applications.
+
+ Demoiselle Framework is released under the terms of the LGPL license 3
+ http://www.gnu.org/licenses/lgpl.html  LGPL License 3
+
+ This file is part of Demoiselle Framework.
+
+ Demoiselle Framework is free software: you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License 3 as published by
+ the Free Software Foundation.
+
+ Demoiselle Framework is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU Lesser General Public License for more details.
+
+ You should have received a copy of the GNU Lesser General Public License
+ along with Demoiselle Framework.  If not, see <http://www.gnu.org/licenses />.
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<parent>
+		<groupId>br.gov.framework.demoiselle</groupId>
+		<artifactId>demoiselle</artifactId>
+		<version>1.1.5</version>
+	</parent>
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>br.gov.framework.demoiselle</groupId>
+	<artifactId>demoiselle-view</artifactId>
+	<version>1.1.5</version>
+	
+	<name>View</name>
+	<description>JEE Framework - View Module</description>
+	<url>http://demoiselle.sourceforge.net/framework/${project.version}/demoiselle-view/</url>
+
+	<dependencies>
+		<dependency>
+			<groupId>br.gov.framework.demoiselle</groupId>
+			<artifactId>demoiselle-core</artifactId>
+			<version>1.1.5</version>
+		</dependency>
+		<dependency>
+			<groupId>br.gov.framework.demoiselle</groupId>
+			<artifactId>demoiselle-util</artifactId>
+			<version>1.1.5</version>
+		</dependency>		
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>2.5</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.faces</groupId>
+			<artifactId>jsf-api</artifactId>
+			<version>1.2_08</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.faces</groupId>
+			<artifactId>jsf-impl</artifactId>
+			<version>1.2_08</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.el</groupId>
+			<artifactId>el-api</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.shale</groupId>
+			<artifactId>shale-test</artifactId>
+			<version>1.0.4</version>
+			<scope>test</scope>
+		</dependency>
+		
+	</dependencies>
+	
+</project>

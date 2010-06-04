@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="demoiselle-core/target/classes" path="demoiselle-core/src/main/java"/>
+	<classpathentry excluding="**" kind="src" output="demoiselle-core/target/classes" path="demoiselle-core/src/main/resources"/>
+	<classpathentry kind="src" output="demoiselle-core/target/test-classes" path="demoiselle-core/src/test/java"/>
+	<classpathentry excluding="**" kind="src" output="demoiselle-core/target/test-classes" path="demoiselle-core/src/test/resources"/>
+	<classpathentry kind="src" output="demoiselle-util/target/classes" path="demoiselle-util/src/main/java"/>
+	<classpathentry excluding="**" kind="src" output="demoiselle-util/target/classes" path="demoiselle-util/src/main/resources"/>
+	<classpathentry kind="src" output="demoiselle-util/target/test-classes" path="demoiselle-util/src/test/java"/>
+	<classpathentry excluding="**" kind="src" output="demoiselle-util/target/test-classes" path="demoiselle-util/src/test/resources"/>
+	<classpathentry kind="src" output="demoiselle-web/target/classes" path="demoiselle-web/src/main/java"/>
+	<classpathentry excluding="**/*.aj" kind="src" output="demoiselle-web/target/classes" path="demoiselle-web/src/main/aspect"/>
+	<classpathentry excluding="**" kind="src" output="demoiselle-web/target/classes" path="demoiselle-web/src/main/resources"/>
+	<classpathentry kind="src" output="demoiselle-web/target/test-classes" path="demoiselle-web/src/test/java"/>
+	<classpathentry excluding="**" kind="src" output="demoiselle-web/target/test-classes" path="demoiselle-web/src/test/resources"/>
+	<classpathentry kind="src" output="demoiselle-persistence/target/classes" path="demoiselle-persistence/src/main/java"/>
+	<classpathentry excluding="**" kind="src" output="demoiselle-persistence/target/classes" path="demoiselle-persistence/src/main/resources"/>
+	<classpathentry kind="src" output="demoiselle-persistence/target/test-classes" path="demoiselle-persistence/src/test/java"/>
+	<classpathentry excluding="**" kind="src" output="demoiselle-persistence/target/test-classes" path="demoiselle-persistence/src/test/resources"/>
+	<classpathentry kind="src" output="demoiselle-view/target/classes" path="demoiselle-view/src/main/java"/>
+	<classpathentry excluding="**" kind="src" output="demoiselle-view/target/classes" path="demoiselle-view/src/main/resources"/>
+	<classpathentry kind="src" output="demoiselle-view/target/test-classes" path="demoiselle-view/src/test/java"/>
+	<classpathentry excluding="**" kind="src" output="demoiselle-view/target/test-classes" path="demoiselle-view/src/test/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.maven.ide.eclipse.MAVEN2_CLASSPATH_CONTAINER"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
