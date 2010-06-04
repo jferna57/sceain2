@@ -1,0 +1,135 @@
+                                    ------
+                                    Configuração do Ambiente
+~~Demoiselle Framework
+~~Copyright (c) 2009 Serpro and other contributors as indicated
+~~by the @author tag. See the copyright.txt in the distribution for a
+~~full listing of contributors.
+~~
+~~Demoiselle Framework is an open source Java EE library designed to accelerate
+~~the development of transactional database Web applications.
+~~
+~~Demoiselle Framework is released under the terms of the LGPL license 3
+~~http://www.gnu.org/licenses/lgpl.html  LGPL License 3
+~~
+~~This file is part of Demoiselle Framework.
+~~
+~~Demoiselle Framework is free software: you can redistribute it and/or modify
+~~it under the terms of the GNU Lesser General Public License 3 as published by
+~~the Free Software Foundation.
+~~
+~~Demoiselle Framework is distributed in the hope that it will be useful,
+~~but WITHOUT ANY WARRANTY; without even the implied warranty of
+~~MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+~~GNU Lesser General Public License for more details.
+~~
+~~You should have received a copy of the GNU Lesser General Public License
+~~along with Demoiselle Framework.  If not, see <http://www.gnu.org/licenses/>.
+                                    
+Configuração do Ambiente
+
+%{toc|section=1|fromDepth=1|toDepth=3}
+
+* {demoiselle.properties}
+
+*---+-----------------------------+
+|framework.demoiselle.web.initialization.action | Lista com os nomes das classes que implementam IAction e que devem ser executadas na inicialização da aplicação. Para que o mecanismo de transação funcione é necessário adicionar pelo menos uma classe: <<br.gov.framework.demoiselle.web.transaction.WebTransactionAction>> |
+*---+-----------------------------+
+|framework.demoiselle.web.redirect.action | Lista com os nomes das classes que implementam IRedirectAction que executam ações de redirecionamento baseado em URL. |
+*---+-----------------------------+
+|framework.demoiselle.web.layer.integration.proxy.class | Nome da classe que implementa IProxy e será usada para criar durante o processo de injeção de dependência. |
+*---+-----------------------------+
+|framework.demoiselle.web.transaction.type | Define o tipo do mecanismo de transação. Os valores aceitos são: |
+|                                          | LOCAL - usa a implementação do framework. |
+|                                          | JTA   - usa um JTS disponível no ambiente. |
+*---+-----------------------------+
+|framework.demoiselle.web.transaction.manager_lookup_class | Nome da classe que implementa IJNDITransactionManagerLookup e é responsável por localizar o nome do UserTransaction no contexto JNDI. Se nenhuma classe for definida o valor padrão será: <<java:comp/UserTransaction>> |
+*---+-----------------------------+
+|framework.demoiselle.persistence.jdbc.driver | Nome da classe do driver JDBC |
+*---+-----------------------------+
+|framework.demoiselle.persistence.jdbc.url | url usado na conexão JDBC |
+*---+-----------------------------+
+|framework.demoiselle.persistence.jdbc.user | usuário usado na conexão JDBC | 
+*---+-----------------------------+
+|framework.demoiselle.persistence.jdbc.pass | senha usada na conexão JDBC |
+*---+-----------------------------+
+|framework.persistence.jdbc.urlJNDI | nome JNDI do datasource. |
+*---+-----------------------------+
+|framework.demoiselle.view.faces.datascroller.maxPages | Número máximo de página em uma tabela JSF. O valor padrão é 10. |
+*---+-----------------------------+
+|framework.demoiselle.view.faces.datascroller.rows | Número máximo de linhas por página. O valor padrão é 50. |
+*---+-----------------------------+
+
+* {web.xml}
+
+  Para que o framework funcione em uma aplicação web cada um dos elementos 
+abaixo devem ser adionados no web.xml.
+
+** {Inicialização do Ambiente}
+
+  Mecanismo responsável por executar ações durante a fase de inicialização do contexto da
+aplicação.
+
++-----------------------------------------------------------------------------------------------------------------------+  
+<listener>
+	<listener-class>br.gov.framework.demoiselle.web.init.WebInitializationServletContextListener</listener-class>
+</listener>	
++-----------------------------------------------------------------------------------------------------------------------+  
+
+** {Contexto de Segurança}
+
+  Mecanismo responsável pelo monitoramento do conexto de segurança.
+
++-----------------------------------------------------------------------------------------------------------------------+  
+<listener>
+	<listener-class>br.gov.framework.demoiselle.web.security.WebSecurityServletRequestListener</listener-class>
+</listener>		
++-----------------------------------------------------------------------------------------------------------------------+  
+
+** {Controle Transacional}
+
+  Mecanismo responsável pelo monitoramento do contexto de transação.
+
++-----------------------------------------------------------------------------------------------------------------------+  
+<listener>
+	<listener-class>br.gov.framework.demoiselle.web.transaction.WebTransactionServletRequestListener</listener-class>
+</listener>
++-----------------------------------------------------------------------------------------------------------------------+  
+
+** {Redirecionamento baseado em URL}
+
+  Redirecionador de requisições baseado em url. Localiza e adiciona ação ao serviço.
+
++-----------------------------------------------------------------------------------------------------------------------+  
+<servlet>
+	<servlet-name>WebRedirectServlet</servlet-name>
+	<servlet-class>br.gov.framework.demoiselle.web.redirect.WebRedirectServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>WebRedirectServlet</servlet-name>
+	<url-pattern>/redirect</url-pattern>
+</servlet-mapping>
++-----------------------------------------------------------------------------------------------------------------------+  
+
+* {Utilização do Arquétipo}
+
+  Novos projetos podem ser criados de três formas: manualmente, com o uso do plugin SERPRO ou por
+meio do arquétipo. Neste último caso, é necessário criar um projeto do tipo Maven, o que requer,
+obrigatoriamente, a instalação do Maven e o plugin do Maven no Eclipse.
+
+  O diretório .m2 do Maven deve ter o seguinte arquivo:
+  
+** {archetype-catalog.xml}
+
++-----------------------------------------------------------------------------------------------------------------------+
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-catalog>
+    <archetypes>
+        <archetype>
+            <groupId>br.gov.component.demoiselle.archetypes</groupId>
+            <artifactId>demoiselle-archetype-webapp</artifactId>
+            <version>[No formato x.y.z]</version>
+            <repository>[URL do repositório]</repository>
+        </archetype>
+    </archetypes>
+</archetype-catalog>
++-----------------------------------------------------------------------------------------------------------------------+   
