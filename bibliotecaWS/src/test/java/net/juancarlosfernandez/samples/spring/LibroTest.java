@@ -15,6 +15,9 @@ public class LibroTest {
 	
 	Libro libro = new Libro();
 	
+	/**
+	 * return : void
+	 */
 	@Test
 	public void testSetGetEditorial() {
 		libro.setEditorial("editorial");
@@ -24,7 +27,9 @@ public class LibroTest {
 			fail("Error!!!");
 	}
 
-
+	/**
+	 * return : void
+	 */
 	@Test
 	public void testSetGetTitulo() {
 		libro.setTitulo("titulo");
