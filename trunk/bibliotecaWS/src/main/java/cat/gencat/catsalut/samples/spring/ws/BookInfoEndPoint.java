@@ -3,14 +3,14 @@ package cat.gencat.catsalut.samples.spring.ws;
 import java.util.Iterator;
 import java.util.List;
 
-import net.juancarlosfernandez.samples.spring.ws.entity.*;
-
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Text;
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
-import org.springframework.ws.server.endpoint.AbstractDomPayloadEndpoint;
+
+import sun.rmi.runtime.Log;
+import cat.gencat.catsalut.samples.spring.ws.entity.BooksInfoRequest;
+import cat.gencat.catsalut.samples.spring.ws.entity.BooksInfoResponse;
+import cat.gencat.catsalut.samples.spring.ws.entity.Libro;
 
 /**
  * 
