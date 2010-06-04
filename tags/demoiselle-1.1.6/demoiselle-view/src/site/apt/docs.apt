@@ -1,0 +1,79 @@
+                                    ------
+                                    Documentação View
+~~Demoiselle Framework
+~~Copyright (c) 2009 Serpro and other contributors as indicated
+~~by the @author tag. See the copyright.txt in the distribution for a
+~~full listing of contributors.
+~~
+~~Demoiselle Framework is an open source Java EE library designed to accelerate
+~~the development of transactional database Web applications.
+~~
+~~Demoiselle Framework is released under the terms of the LGPL license 3
+~~http://www.gnu.org/licenses/lgpl.html  LGPL License 3
+~~
+~~This file is part of Demoiselle Framework.
+~~
+~~Demoiselle Framework is free software: you can redistribute it and/or modify
+~~it under the terms of the GNU Lesser General Public License 3 as published by
+~~the Free Software Foundation.
+~~
+~~Demoiselle Framework is distributed in the hope that it will be useful,
+~~but WITHOUT ANY WARRANTY; without even the implied warranty of
+~~MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+~~GNU Lesser General Public License for more details.
+~~
+~~You should have received a copy of the GNU Lesser General Public License
+~~along with Demoiselle Framework.  If not, see <http://www.gnu.org/licenses/>.
+                                    
+Documentação {View}
+
+%{toc|section=1|fromDepth=1|toDepth=2}
+  
+* {Visão Geral} {{{View}^}}
+
+  A especificação {{{http://java.sun.com/javaee/javaserverfaces/}JSF}} 
+  define a utilização de um controlador MVC denominado
+{{{http://en.wikipedia.org/wiki/Managed_Bean}Managed Bean}}. O módulo View 
+disponibiliza uma implementação padronizada para ser
+utilizada nas aplicações.
+
+[images/view.png] br.gov.framework.demoiselle.view
+
+* {br.gov.framework.demoiselle.view.cookie} {{{View}^}} 
+
+[images/cookie.png] br.gov.framework.demoiselle.view.cookie
+
+  Este pacote contém a classe <<CookieManager>>, um utilitário de
+<cookie> que permite a realização de operações básicas
+relacionadas a <cookies> na <Web>.
+
+* {br.gov.framework.demoiselle.view.faces} {{{View}^}}
+
+  A especificação JSF define a utilização de um controlador MVC
+denominado Managed Bean. O módulo View disponibiliza uma 
+implementação padronizada para ser utilizada nas aplicações.
+
+  Este pacote contém a classe <<ViewException>>, a exceção padrão
+da camada de Visão.  
+
+* {br.gov.framework.demoiselle.view.faces.controller} {{{View}^}}
+
+[images/faces-controller.png] br.gov.framework.demoiselle.view.faces.controller
+
+  Este pacote contém a classe abstrata <<AbstractManagedBean>>, 
+que implementa o controlador da camada de visão para JSF. Ele 
+também contém a classe <<AbstractManagedBeanConfig>> que 
+representa as configurações da aplicação do total de linhas e a
+quantidade de páginas ao paginar dados.
+
+* {br.gov.framework.demoiselle.view.faces.util} {{{View}^}}
+
+[images/faces-util.png] br.gov.framework.demoiselle.view.faces.util
+
+  Este pacote contém a classe <<ManagedBeanUtil>>, que visa
+facilitar as operações com {{{http://en.wikipedia.org/wiki/Managed_Bean}ManagedBean}}.
+Também declara <<PagedResultDataModel>>, que é um modelo de dados 
+que converte um PagedResult para representação gráfica dos resultados
+paginados.  
+
+               
