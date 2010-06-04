@@ -18,14 +18,16 @@
 		<url>http://www.serpro.gov.br</url>
 	</organization>
 	
-	<!-- 
 	<properties>
 		<encoding.default>UTF-8</encoding.default>
-		<site.url>scp://shell.sourceforge.net/home/groups/d/de/demoiselle/htdocs/framework</site.url>
+		<site.url>dav:http://qualityportal.in2.es:8123/tunnel-web/secure/webdav/hc3/document_library/Versions</site.url>
+		<!--  
 		<upload.url>scp://shell.sourceforge.net/home/frs/project/d/de/demoiselle/framework</upload.url>
 		<repository.url>scp://shell.sourceforge.net/home/groups/d/de/demoiselle/htdocs/repository</repository.url>
+		-->
+
 	</properties>
-	 -->
+	
 	<licenses>
 		<license>
 			<name>LGPL</name>
@@ -53,11 +55,11 @@
 	</repositories>
 	
 	<distributionManagement>
-		<!-- <site>
+		<site>
 			<id>demoiselle.sourceforge.net</id>
 			<url>${site.url}/${project.version}</url>
 		</site>
-		 -->
+		
 		<snapshotRepository>
 			<id>google-code</id>
 			<url>dav:http://qualityportal.in2.es:8123/tunnel-web/secure/webdav/hc3/document_library/Versions</url>
