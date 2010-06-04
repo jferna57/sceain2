@@ -6,7 +6,7 @@
 
 	<groupId>br.gov.framework.demoiselle</groupId>
 	<artifactId>demoiselle</artifactId>
-	<version>1.1.5-SNAPSHOT</version>
+	<version>1.1.5-snapshot</version>
 	<packaging>pom</packaging>
 
 	<name>Demoiselle</name>
@@ -42,7 +42,7 @@
 
 	<repositories>
 		<repository>
-			<id>demoiselle.sourceforge.net-snapshot</id>
+			<id>google-code</id>
 			<url>http://demoiselle.sourceforge.net/repository/snapshot</url>
 		</repository>
 		<repository>
