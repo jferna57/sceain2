@@ -1,4 +1,4 @@
-package net.juancarlosfernandez.samples.spring.ws;
+package cat.gencat.catsalut.samples.spring.ws;
 
 import net.juancarlosfernandez.samples.spring.ws.entity.BooksInfoRequest;
 import net.juancarlosfernandez.samples.spring.ws.entity.BooksInfoResponse;
@@ -6,7 +6,7 @@ import net.juancarlosfernandez.samples.spring.ws.entity.Libro;
 
 /**
  * Implementacion dummy de IRequestProcesor
- * @author Juan C. Fernández
+ * @author Juan C. Fernï¿½ndez
  * @see http://www.juancarlosfernandez.net
  */
 public class DummyRequestProcessor implements IRequestProcessor {

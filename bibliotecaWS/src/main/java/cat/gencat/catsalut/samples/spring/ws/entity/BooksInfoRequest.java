@@ -1,4 +1,4 @@
-package net.juancarlosfernandez.samples.spring.ws.entity;
+package cat.gencat.catsalut.samples.spring.ws.entity;
 
 /**
  * Representacion de una peticion.

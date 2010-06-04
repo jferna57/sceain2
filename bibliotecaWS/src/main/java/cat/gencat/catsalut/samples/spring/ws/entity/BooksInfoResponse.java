@@ -1,8 +1,8 @@
-package net.juancarlosfernandez.samples.spring.ws.entity;
+package cat.gencat.catsalut.samples.spring.ws.entity;
 
 /**
  * Representacion la respuesta a una peticion BooksInforRequest.
- * @author Juan C. Fernández
+ * @author Juan C. Fernï¿½ndez
  * @see http://www.juancarlosfernandez.net
  */
 public class BooksInfoResponse {

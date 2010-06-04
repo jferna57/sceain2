@@ -1,4 +1,4 @@
-package net.juancarlosfernandez.samples.spring;
+package cat.gencat.catsalut.samples.spring;
 
 import net.juancarlosfernandez.samples.spring.ws.entity.BooksInfoRequest;
 

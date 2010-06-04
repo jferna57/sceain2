@@ -21,13 +21,13 @@
 		<repository>
 			<id>google-code</id>
 			<name>Repository Name</name>
-			<url>dav:http://qualityportal.in2.es:8123/tunnel-web/secure/webdav/hc3/document_library/test</url>
+			<url>dav:http://qualityportal.in2.es:8123/tunnel-web/secure/webdav/hc3/document_library/Versions</url>
 		</repository>
 		<!-- use the following if you ARE using a snapshot version. -->
 		<snapshotRepository>
 			<id>google-code</id>
 			<name>Repository Name</name>
-			<url>dav:http://qualityportal.in2.es:8123/tunnel-web/secure/webdav/hc3/document_library/test</url>
+			<url>dav:http://qualityportal.in2.es:8123/tunnel-web/secure/webdav/hc3/document_library/Versions</url>
 		</snapshotRepository>
 	</distributionManagement>
 
