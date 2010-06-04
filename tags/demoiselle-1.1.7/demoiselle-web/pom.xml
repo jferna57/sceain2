@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<parent>
+		<groupId>br.gov.framework.demoiselle</groupId>
+		<artifactId>demoiselle</artifactId>
+		<version>1.1.7</version>
+	</parent>
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>br.gov.framework.demoiselle</groupId>
+	<artifactId>demoiselle-web</artifactId>
+	<version>1.1.7</version>
+	
+	<name>Web</name>
+	<description>JEE Framework - Web Module</description>
+	<url>http://demoiselle.sourceforge.net/framework/${project.version}/demoiselle-web/</url>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>aspectj-maven-plugin</artifactId>
+				<version>1.0</version>
+				<configuration>
+					<encoding>${encoding.default}</encoding>
+					<source>1.5</source>
+					<target>1.5</target>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>compile</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>	
+		</plugins>
+	</build>
+	
+	<dependencies>
+		<dependency>
+			<groupId>br.gov.framework.demoiselle</groupId>
+			<artifactId>demoiselle-core</artifactId>
+			<version>1.1.7</version>
+		</dependency>
+		<dependency>
+			<groupId>br.gov.framework.demoiselle</groupId>
+			<artifactId>demoiselle-util</artifactId>
+			<version>1.1.7</version>
+		</dependency>	
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>2.5</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.transaction</groupId>
+			<artifactId>jta</artifactId>
+			<version>1.0.1B</version>
+		</dependency>
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjrt</artifactId>
+			<version>1.5.4</version>
+		</dependency>
+	</dependencies>
+	
+</project>

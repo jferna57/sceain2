@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+
+	<bannerLeft>
+		<src>images/logo-l.png</src>
+		<href>${project.url}</href>
+	</bannerLeft>
+	
+	<bannerRight>
+		<src>images/logo-r.png</src>
+	</bannerRight>
+	
+	<publishDate position="left" format="dd/MM/yyyy hh:mm:ss a"/>
+
+<!-- <skin>
+		<groupId>br.gov.component.demoiselle.skins</groupId>
+		<artifactId>demoiselle-default-skin</artifactId>
+		<version>1.0.1</version>
+	</skin>
+ -->	
+	<body>
+
+		<links>
+			<item name="${project.parent.name}" href="${project.parent.url}" />
+		</links>
+		
+		<menu name="${project.name}">
+			<item name="Sobre" href="index.html" />
+			<item name="Documentação" href="docs.html" />
+		</menu>
+		
+		<menu ref="reports" />
+		
+	</body>
+	
+</project>
