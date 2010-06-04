@@ -30,14 +30,14 @@
 	<parent>
 		<groupId>br.gov.framework.demoiselle</groupId>
 		<artifactId>demoiselle</artifactId>
-		<version>1.1.5</version>
+		<version>1.1.5-snapshot</version>
 	</parent>
 
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>br.gov.framework.demoiselle</groupId>
 	<artifactId>demoiselle-view</artifactId>
-	<version>1.1.5</version>
+	<version>1.1.5-snapshot</version>
 	
 	<name>View</name>
 	<description>JEE Framework - View Module</description>
@@ -47,12 +47,12 @@
 		<dependency>
 			<groupId>br.gov.framework.demoiselle</groupId>
 			<artifactId>demoiselle-core</artifactId>
-			<version>1.1.5</version>
+			<version>1.1.5-snapshot</version>
 		</dependency>
 		<dependency>
 			<groupId>br.gov.framework.demoiselle</groupId>
 			<artifactId>demoiselle-util</artifactId>
-			<version>1.1.5</version>
+			<version>1.1.5-snapshot</version>
 		</dependency>		
 		<dependency>
 			<groupId>javax.servlet</groupId>
