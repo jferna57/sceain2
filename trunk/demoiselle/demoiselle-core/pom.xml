@@ -4,14 +4,14 @@
 	<parent>
 		<groupId>br.gov.framework.demoiselle</groupId>
 		<artifactId>demoiselle</artifactId>
-		<version>1.1.7</version>
+		<version>1.1.8-SNAPSHOT</version>
 	</parent>
 	
 	<modelVersion>4.0.0</modelVersion>
         
 	<groupId>br.gov.framework.demoiselle</groupId>
 	<artifactId>demoiselle-core</artifactId>
-	<version>1.1.7</version>
+	<version>1.1.8-SNAPSHOT</version>
         
 	<name>Core</name>
 	<description>JEE Framework - Core Module</description>
