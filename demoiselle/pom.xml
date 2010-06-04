@@ -6,7 +6,7 @@
 
 	<groupId>br.gov.framework.demoiselle</groupId>
 	<artifactId>demoiselle</artifactId>
-	<version>1.1.7-SNAPSHOT</version>
+	<version>1.1.7</version>
 	<packaging>pom</packaging>
 
 	<name>Demoiselle</name>
@@ -69,8 +69,8 @@
 	</distributionManagement>
 
 	<scm>
-		<url>scm:svn:https://sceain2.googlecode.com/svn/trunk/demoiselle</url>
-		<connection>scm:svn:https://sceain2.googlecode.com/svn/trunk/demoiselle</connection>
+		<url>scm:svn:https://sceain2.googlecode.com/svn/tags/demoiselle-1.1.7</url>
+		<connection>scm:svn:https://sceain2.googlecode.com/svn/tags/demoiselle-1.1.7</connection>
 	</scm>
 	
 	<build>
