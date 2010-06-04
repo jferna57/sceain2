@@ -4,7 +4,7 @@
 	<groupId>cat.gencat.catsalut.hc3</groupId>
 	<artifactId>hc3</artifactId>
 	<packaging>war</packaging>
-	<version>1.19</version>
+	<version>1.19-SNAPSHOT</version>
 	<name>BibliotecaWS con Spring-WS</name>
 	<description>Ejemplo de Spring-WS</description>
 	<url>https://sceain2.googlecode.com</url>
