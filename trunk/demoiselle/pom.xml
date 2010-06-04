@@ -6,7 +6,7 @@
 
 	<groupId>br.gov.framework.demoiselle</groupId>
 	<artifactId>demoiselle</artifactId>
-	<version>1.1.6-snapshot-SNAPSHOT</version>
+	<version>1.1.6-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>Demoiselle</name>
@@ -17,14 +17,15 @@
 		<name>SERPRO</name>
 		<url>http://www.serpro.gov.br</url>
 	</organization>
-
+	
+	<!-- 
 	<properties>
 		<encoding.default>UTF-8</encoding.default>
 		<site.url>scp://shell.sourceforge.net/home/groups/d/de/demoiselle/htdocs/framework</site.url>
 		<upload.url>scp://shell.sourceforge.net/home/frs/project/d/de/demoiselle/framework</upload.url>
 		<repository.url>scp://shell.sourceforge.net/home/groups/d/de/demoiselle/htdocs/repository</repository.url>
 	</properties>
-
+	 -->
 	<licenses>
 		<license>
 			<name>LGPL</name>
@@ -43,26 +44,27 @@
 	<repositories>
 		<repository>
 			<id>google-code</id>
-			<url>http://demoiselle.sourceforge.net/repository/snapshot</url>
+			<url>dav:http://qualityportal.in2.es:8123/tunnel-web/secure/webdav/hc3/document_library/Versions</url>
 		</repository>
 		<repository>
 			<id>demoiselle.sourceforge.net-release</id>
-			<url>http://demoiselle.sourceforge.net/repository/release</url>
+			<url>dav:http://qualityportal.in2.es:8123/tunnel-web/secure/webdav/hc3/document_library/Versions</url>
 		</repository>
 	</repositories>
 	
 	<distributionManagement>
-		<site>
+		<!-- <site>
 			<id>demoiselle.sourceforge.net</id>
 			<url>${site.url}/${project.version}</url>
 		</site>
+		 -->
 		<snapshotRepository>
-			<id>demoiselle.sourceforge.net</id>
-			<url>${repository.url}/snapshot</url>
+			<id>google-code</id>
+			<url>dav:http://qualityportal.in2.es:8123/tunnel-web/secure/webdav/hc3/document_library/Versions</url>
 		</snapshotRepository>
 		<repository>
-			<id>demoiselle.sourceforge.net</id>
-			<url>${repository.url}/release</url>
+			<id>google-code</id>
+			<url>dav:http://qualityportal.in2.es:8123/tunnel-web/secure/webdav/hc3/document_library/Versions</url>
 		</repository>
 	</distributionManagement>
 
