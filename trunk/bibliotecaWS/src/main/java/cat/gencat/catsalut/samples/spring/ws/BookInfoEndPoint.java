@@ -1,4 +1,4 @@
-package net.juancarlosfernandez.samples.spring.ws;
+package cat.gencat.catsalut.samples.spring.ws;
 
 import java.util.Iterator;
 import java.util.List;
