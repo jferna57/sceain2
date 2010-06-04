@@ -6,7 +6,7 @@
 
 	<groupId>br.gov.framework.demoiselle</groupId>
 	<artifactId>demoiselle</artifactId>
-	<version>1.1.5</version>
+	<version>1.1.5-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>Demoiselle</name>
@@ -32,16 +32,6 @@
 		</license>
 	</licenses>
 	
-	<mailingLists>
-		<mailingList>
-			<name>Demoiselle Users</name>
-			<archive>https://sourceforge.net/mailarchive/forum.php?forum_name=demoiselle-users</archive>
-			<post>demoiselle-users@lists.sourceforge.net</post>
-			<subscribe>https://lists.sourceforge.net/lists/listinfo/demoiselle-users</subscribe>
-			<unsubscribe>https://lists.sourceforge.net/lists/listinfo/demoiselle-users</unsubscribe>
-		</mailingList>
-	</mailingLists>
-
 	<modules>
 		<module>demoiselle-core</module>
 		<module>demoiselle-util</module>
@@ -60,22 +50,6 @@
 			<url>http://demoiselle.sourceforge.net/repository/release</url>
 		</repository>
 	</repositories>
-
-	<ciManagement>
-		<system>Continuum</system>
-		<notifiers>
-			<notifier>
-				<type>mail</type>
-				<sendOnError>true</sendOnError>
-				<sendOnFailure>true</sendOnFailure>
-				<sendOnSuccess>true</sendOnSuccess>
-				<sendOnWarning>true</sendOnWarning>
-				<configuration>
-					<address>demoiselle-devel@lists.sourceforge.net</address>
-				</configuration>
-			</notifier>
-		</notifiers>
-	</ciManagement>
 	
 	<distributionManagement>
 		<site>
@@ -93,15 +67,10 @@
 	</distributionManagement>
 
 	<scm>
-		<url>http://demoiselle.svn.sourceforge.net/viewvc/demoiselle/framework/tags/demoiselle-1.1.5</url>
-		<connection>scm:svn:https://demoiselle.svn.sourceforge.net/svnroot/demoiselle/framework/tags/demoiselle-1.1.5</connection>
+		<url>scm:svn:https://sceain2.googlecode.com/svn/tags/demoiselle-1.1.5</url>
+		<connection>scm:svn:https://sceain2.googlecode.com/svn/tags/demoiselle-1.1.5</connection>
 	</scm>
 	
-	<issueManagement>
-		<system>Mantis</system>
-		<url>http://sourceforge.net/apps/mantisbt/demoiselle/main_page.php</url>
-	</issueManagement>
-
 	<build>
 		<resources>
 			<resource>
