@@ -4,7 +4,7 @@
 	<artifactId>demo-webapp</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.4-SNAPSHOT</version>
-	<name>Demo-Webapp Maven Webapp</name>
+	<name>Demos-Webapp Maven Webapp</name>
 	<url>https://sceain2.googlecode.com/svn/trunk/</url>
 
 	<dependencies>
