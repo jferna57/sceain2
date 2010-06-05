@@ -6,7 +6,7 @@
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Demo-Webapp Maven Webapp</name>
-	<url>http://qualityportal.in2.es:8123/web/hc3</url>
+	<url>https://sceain2.googlecode.com/svn/trunk/</url>
 
 	<dependencies>
 		<dependency>
