@@ -17,8 +17,8 @@
   </dependencies>
   <scm>
   	<connection>scm:svn:https://sceain2.googlecode.com/svn/trunk/demo-webapp</connection>
-  	<developerConnection>Juan Carlos Fernández</developerConnection>
-  	<!--  <url>https://sceain2.googlecode.com/svn/trunk/demo-webapp</url>  -->
+  	<developerConnection>scm:svn:https://sceain2.googlecode.com/svn/trunk/demo-webapp</developerConnection>
+  	<url>https://sceain2.googlecode.com/svn/trunk/demo-webapp</url>
   </scm>
   <build>
     <finalName>demo-webapp</finalName>
