@@ -20,7 +20,6 @@
 	<scm>
 		<connection>scm:svn:https://sceain2.googlecode.com/svn/trunk/demo-webapp</connection>
 		<developerConnection>scm:svn:https://sceain2.googlecode.com/svn/trunk/demo-webapp</developerConnection>
-		<url>https://sceain2.googlecode.com/svn/trunk/demo-webapp</url>
 	</scm>
 
 	<distributionManagement>
