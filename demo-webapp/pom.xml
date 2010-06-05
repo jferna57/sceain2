@@ -18,8 +18,8 @@
 	</dependencies>
 
 	<scm>
-		<connection>scm:svn:https://sceain2.googlecode.com/svn/trunk/demo-webapp</connection>
-		<developerConnection>scm:svn:https://sceain2.googlecode.com/svn/trunk/demo-webapp</developerConnection>
+		<connection>scm:svn:https://sceain2.googlecode.com/svn/trunk/</connection>
+		<developerConnection>scm:svn:https://sceain2.googlecode.com/svn/trunk/</developerConnection>
 	</scm>
 
 	<distributionManagement>
