@@ -16,11 +16,11 @@
     </dependency>
   </dependencies>
   <scm>
-  	<connection>https://sceain2.googlecode.com/svn/trunk/demo-webapp</connection>
+  	<connection>google-code</connection>
   	<developerConnection>Juan Carlos Fernández</developerConnection>
   	<url>https://sceain2.googlecode.com/svn/trunk/demo-webapp</url>
   </scm>
   <build>
-    <finalName>Demo-Webapp</finalName>
+    <finalName>demo-webapp</finalName>
   </build>
 </project>
