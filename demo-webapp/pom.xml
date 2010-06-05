@@ -16,7 +16,7 @@
     </dependency>
   </dependencies>
   <scm>
-  	<connection>google-code</connection>
+  	<connection>scm:svn:https://sceain2.googlecode.com/svn/trunk/demo-webapp</connection>
   	<developerConnection>Juan Carlos Fernández</developerConnection>
   	<url>https://sceain2.googlecode.com/svn/trunk/demo-webapp</url>
   </scm>
