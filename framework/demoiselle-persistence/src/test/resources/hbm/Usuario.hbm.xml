@@ -27,7 +27,7 @@
 -->
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
-	<class name="br.gov.framework.demoiselle.persistence.hibernate.Usuario" table="usuario">
+	<class name="es.in2.framework.demo.persistence.hibernate.Usuario" table="usuario">
 
 		<id column="id_usuario" name="id">
 			<generator class="sequence">

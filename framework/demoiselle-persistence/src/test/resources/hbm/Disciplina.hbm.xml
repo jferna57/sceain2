@@ -27,7 +27,7 @@
 -->
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
-	<class name="br.gov.framework.demoiselle.persistence.hibernate.Disciplina" table="disciplina">
+	<class name="es.in2.framework.demo.persistence.hibernate.Disciplina" table="disciplina">
 	
 		<id column="id_disciplina" name="id" >
 			<generator class="sequence">
