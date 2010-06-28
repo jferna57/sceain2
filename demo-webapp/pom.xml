@@ -3,13 +3,13 @@
 	<groupId>es.in2.samples.webapp</groupId>
 	<artifactId>demo-webapp</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.30-SNAPSHOT</version>
+	<version>0.0.30</version>
 	<name>Demos-Webapp Maven Webapp</name>
 	<url>https://sceain2.googlecode.com/svn/trunk/</url>
 
 	<scm>
-		<connection>scm:svn:https://sceain2.googlecode.com/svn/tags/demo-webapp-0.0.4</connection>
-		<developerConnection>scm:svn:https://sceain2.googlecode.com/svn/tags/demo-webapp-0.0.4</developerConnection>
+		<connection>scm:svn:https://sceain2.googlecode.com/svn/tags/demo-webapp-0.0.30</connection>
+		<developerConnection>scm:svn:https://sceain2.googlecode.com/svn/tags/demo-webapp-0.0.30</developerConnection>
 	</scm>
 
 	<distributionManagement>
